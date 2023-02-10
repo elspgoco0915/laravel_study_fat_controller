@@ -83,3 +83,11 @@
 - Sequel Pro https://www.sequelpro.com/
 - Table Plus https://tableplus.com/
 - MySQL Workbench https://www.mysql.com/jp/products/workbench/
+
+
+## メモ
+### clone後行う(css, jsのコンパイル)
+```bash
+docker-compose exec node bash
+npm i && npm rebuild node-sass && npm run watch
+```
